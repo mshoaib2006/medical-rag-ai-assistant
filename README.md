@@ -30,11 +30,6 @@ This project combines:
 - [API Usage](#api-usage)
 - [Streamlit App Usage](#streamlit-app-usage)
 - [Screenshots](#screenshots)
-- [Example Questions](#example-questions)
-- [Requirements](#requirements)
-- [Known Limitations](#known-limitations)
-- [Future Improvements](#future-improvements)
-- [License](#license)
 
 ---
 
