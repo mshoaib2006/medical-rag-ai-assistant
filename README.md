@@ -32,8 +32,8 @@ This project combines:
 This project is a **Medical RAG chatbot** built to answer disease-related questions such as:
 
 - **Symptoms**
-- **Causes / Risk factors**
-- **Treatment / Management**
+- **Causes**
+- **Treatment**
 - **Diagnosis**
 - **Prevention**
 
@@ -41,7 +41,7 @@ The system retrieves relevant chunks from your **medical PDF guidelines**, then 
 
 ### What makes this project stronger than a basic RAG demo?
 
-- Query normalization for spelling mistakes (e.g., `hypertenshion` → `hypertension`)
+- Query normalization for spelling mistakes 
 - Intent classification (greeting / smalltalk / medical / non-medical / feedback)
 - Hybrid retrieval (**FAISS + BM25**)
 - Reciprocal Rank Fusion (**RRF**)
@@ -72,7 +72,7 @@ The system retrieves relevant chunks from your **medical PDF guidelines**, then 
 - Returns top-ranked chunks for answer generation
 
 ### 3) Query Normalization + Intent Routing
-- Fixes common misspellings and joined words (e.g., `treatmentof`, `hypertenshion`)
+- Fixes common misspellings and joined words 
 - Intent categories:
   - Greeting
   - Smalltalk
@@ -84,8 +84,8 @@ The system retrieves relevant chunks from your **medical PDF guidelines**, then 
 - Detects disease from user query (e.g., hypertension, diabetes, asthma, CKD)
 - Detects requested sections:
   - symptoms
-  - causes/risk factors
-  - treatment/management
+  - causes
+  - treatment
   - diagnosis
   - prevention
 
