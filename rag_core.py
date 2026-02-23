@@ -527,7 +527,6 @@ Important:
 - Add citations on each claim.
 - Do not cite sources that do not exist.
 """
-
         response = self.llm.invoke(prompt)
         answer = (response.content or "").strip()
         answer = self._normalize_citation_format(answer)
