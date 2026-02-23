@@ -23,12 +23,6 @@ This project combines:
 - [Tech Stack](#tech-stack)
 - [How It Works](#how-it-works)
 - [Project Structure](#project-structure)
-- [Supported Diseases (Whitelist)](#supported-diseases-whitelist)
-- [Setup Instructions](#setup-instructions)
-- [Environment Variables](#environment-variables)
-- [Run the Project](#run-the-project)
-- [API Usage](#api-usage)
-- [Streamlit App Usage](#streamlit-app-usage)
 - [Screenshots](#screenshots)
 
 ---
